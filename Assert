@@ -1,0 +1,31 @@
+# Selenium
+package newpackage;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class gmail {
+	String actualTitle, expectedTitle;
+
+	@Test
+	public void main()
+	{
+		System.setProperty("webdriver.gecko.driver","E:\\Shanu_Backup\\Gecko\\geckodriver.exe");
+		WebDriver driver=new FirefoxDriver();
+		driver.get("https://accounts.google.com");
+		expectedTitle = "Sign in - Google Accounts";
+		actualTitle = driver.getTitle();
+		System.out.println("ActualTitle is " + actualTitle );
+		if (expectedTitle.equals(actualTitle))
+		{
+			System.out.println("Verification Successful - The correct title is displayed on the web page.");
+		}
+		else
+		{
+			System.out.println("Verification Failed - An incorrect title is displayed on the web page.");
+		}
+
+
+	}
+}
