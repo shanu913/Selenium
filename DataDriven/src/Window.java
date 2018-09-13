@@ -18,20 +18,22 @@ public class Window {
 		String handle = driver.getWindowHandle();
 		System.out.println(handle);
 		driver.findElement(By.xpath("//button[@onclick= \"newMsgWin()\"]")).click();
-		driver.findElement(By.xpath(".//*[@d='button1']")).click();
-		Set handles = driver.getWindowHandles();
+		driver.findElement(By.xpath(".//*[@id='button1']")).click();
+		Set<String> handles = driver.getWindowHandles();
 		System.out.println(handles);
 		for (String handle1 : driver.getWindowHandles()) {
 			 
         	System.out.println(handle1);
 
         	driver.switchTo().window(handle1);
-		}
         	
+        	driver.close();
+		}
+        	/*
         	for (int i=0; i<driver.getWindowHandles().size();i++	) {
         		System.out.println("ii "+i);
 
-        	}
+        	}*/
 		
 }
 }
