@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29931" started-at="2018-09-13T11:19:43Z" finished-at="2018-09-13T11:20:13Z">
+  <suite name="Default suite" duration-ms="24126" started-at="2018-10-03T05:48:42Z" finished-at="2018-10-03T05:49:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29931" started-at="2018-09-13T11:19:43Z" finished-at="2018-09-13T11:20:13Z">
-      <class name="frame">
-        <test-method status="PASS" signature="test()[pri:0, instance:frame@29774679]" name="test" duration-ms="29867" started-at="2018-09-13T11:19:44Z" finished-at="2018-09-13T11:20:13Z">
+    <test name="Default test" duration-ms="24126" started-at="2018-10-03T05:48:42Z" finished-at="2018-10-03T05:49:06Z">
+      <class name="com.webapp.testcases.Verifyvalidlogin">
+        <test-method status="PASS" signature="verifylogin()[pri:0, instance:com.webapp.testcases.Verifyvalidlogin@5e5792a0]" name="verifylogin" duration-ms="24081" started-at="2018-10-03T05:48:42Z" finished-at="2018-10-03T05:49:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- frame -->
+        </test-method> <!-- verifylogin -->
+      </class> <!-- com.webapp.testcases.Verifyvalidlogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
