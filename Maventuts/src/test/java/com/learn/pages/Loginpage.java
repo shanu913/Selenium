@@ -16,7 +16,7 @@ public class Loginpage {
 		this.driver=ldriver;
 	}
 	
-	@FindBy(xpath="//input[@name=\"emails\"]") WebElement email;
+	@FindBy(xpath="//input[@name=\"email\"]") WebElement email;
 	
 	@FindBy(xpath="//input[@name=\"password\"]") WebElement pass;
 	
