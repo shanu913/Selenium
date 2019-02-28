@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24126" started-at="2018-10-03T05:48:42Z" finished-at="2018-10-03T05:49:06Z">
+  <suite name="Default suite" duration-ms="11159" started-at="2019-02-15T11:45:39Z" finished-at="2019-02-15T11:45:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24126" started-at="2018-10-03T05:48:42Z" finished-at="2018-10-03T05:49:06Z">
+    <test name="Default test" duration-ms="11159" started-at="2019-02-15T11:45:39Z" finished-at="2019-02-15T11:45:50Z">
       <class name="com.webapp.testcases.Verifyvalidlogin">
-        <test-method status="PASS" signature="verifylogin()[pri:0, instance:com.webapp.testcases.Verifyvalidlogin@5e5792a0]" name="verifylogin" duration-ms="24081" started-at="2018-10-03T05:48:42Z" finished-at="2018-10-03T05:49:06Z">
+        <test-method status="PASS" signature="verifylogin()[pri:0, instance:com.webapp.testcases.Verifyvalidlogin@46d56d67]" name="verifylogin" duration-ms="11121" started-at="2019-02-15T11:45:39Z" finished-at="2019-02-15T11:45:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogin -->
