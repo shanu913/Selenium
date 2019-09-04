@@ -4,6 +4,7 @@ import java.util.Set;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
@@ -13,9 +14,9 @@ public class frame {
 	public void test()
 	{
 		
-	System.setProperty("webdriver.gecko.driver", "D:\\Shanu Data\\gecko\\New folder\\geckodriver.exe");
-	WebDriver driver = new FirefoxDriver();
-	driver.get("http://toolsqa.wpengine.com/iframe-practice-page/");
+	System.setProperty("webdriver.chrome.driver", "E:\\Shanu Data\\Slenium\\Chrome Driver\\chromedriver.exe");
+	WebDriver driver = new ChromeDriver();
+	driver.get("https://www.toolsqa.com/iframe-practice-page/");
 	/*int size = driver.findElements(By.tagName("iframe")).size();
 	System.out.println("Size is  " +   size);
 	List<WebElement> iframeElements = driver.findElements(By.tagName("iframe"));

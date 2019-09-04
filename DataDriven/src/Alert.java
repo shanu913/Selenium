@@ -11,7 +11,7 @@ public class Alert {
 	@Test
 	public void test() throws InterruptedException
 	{
-		System.setProperty("webdriver.chrome.driver", "D:\\Shanu Data\\Slenium\\Chrome Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\Shanu Data\\Slenium\\Chrome Driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 
