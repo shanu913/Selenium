@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
@@ -12,13 +13,15 @@ public class Window {
 	@Test
 	public void test() throws InterruptedException
 	{
-		System.setProperty("webdriver.gecko.driver", "D:\\Shanu Data\\gecko\\New folder\\geckodriver.exe");
-		WebDriver driver = new FirefoxDriver();
-		driver.get("http://toolsqa.wpengine.com/automation-practice-switch-windows/");
+		System.setProperty("webdriver.chrome.driver", "E:\\Shanu Data\\Slenium\\Chrome Driver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://toolsqa.com/automation-practice-switch-windows/");
 		String handle = driver.getWindowHandle();
 		System.out.println(handle);
-		driver.findElement(By.xpath("//button[@onclick= \"newMsgWin()\"]")).click();
-		driver.findElement(By.xpath(".//*[@id='button1']")).click();
+		/*
+		 * driver.findElement(By.xpath("//button[@onclick= \"newMsgWin()\"]")).click();
+		 * driver.findElement(By.xpath(".//*[@id='button1']")).click();
+		 */
 		Set<String> handles = driver.getWindowHandles();
 		System.out.println(handles);
 		for (String handle1 : driver.getWindowHandles()) {

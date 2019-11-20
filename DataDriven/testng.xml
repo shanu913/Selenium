@@ -3,11 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Wait">
-      <methods>
+      <class name="ListEx">
+      <!-- //<methods>
       <exclude name="login">
       </exclude>
-      </methods>
+      </methods> -->
       </class>
     </classes>
   </test> <!-- Test -->

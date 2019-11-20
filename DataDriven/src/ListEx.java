@@ -23,6 +23,19 @@ public class ListEx {
 		{
 			System.out.println(item.getText());
 		}
+		
+		if (driver.findElement(By.xpath("//input[@class=\\\"gLFyf gsfi\\\"]")).isDisplayed())
+		{
+			System.out.println("yes");
+		}
+		
+		else
+		{
+			System.out.println("no");
+		}
+		
+		driver.close();
+		driver.quit();
 	}
-
+	
 }

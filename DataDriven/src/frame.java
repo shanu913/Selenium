@@ -22,26 +22,29 @@ public class frame {
 	List<WebElement> iframeElements = driver.findElements(By.tagName("iframe"));
 	System.out.println("The total number of iframes are " + iframeElements.size());*/
 	
-	driver.switchTo().frame(0);
+	//driver.switchTo().frame(0);
 	int size = driver.findElements(By.tagName("iframe")).size();
 	List<WebElement> Size1=driver.findElements(By.tagName("iframe"));
 	System.out.println(Size1.size());
 	
 	System.out.println(size);
 	
-	String s=driver.findElement(By.xpath(".//*[@id='content']/div[1]/div/div/div/div[1]/p[2]/span/em ")).getText();
-	System.out.println(s);
-	
-	driver.switchTo().defaultContent();
-	driver.switchTo().frame(1);
-	
-	int size2 = driver.findElements(By.tagName("iframe")).size();
-	System.out.println(size2);
-	
-	//List<WebElement> Size1=driver.findElements(By.tagName("iframe"));
-	//System.out.println(Size1.size());
-	
-	String ss=driver.findElement(By.xpath(".//*[@id='post-1']/header/h1")).getText();
-	System.out.println(ss);
+		/*
+		 * String s=driver.findElement(By.
+		 * xpath(".//*[@id='content']/div[1]/div/div/div/div[1]/p[2]/span/em ")).getText
+		 * (); System.out.println(s);
+		 * 
+		 * driver.switchTo().defaultContent(); driver.switchTo().frame(1);
+		 * 
+		 * int size2 = driver.findElements(By.tagName("iframe")).size();
+		 * System.out.println(size2);
+		 * 
+		 * //List<WebElement> Size1=driver.findElements(By.tagName("iframe"));
+		 * //System.out.println(Size1.size());
+		 * 
+		 * String
+		 * ss=driver.findElement(By.xpath(".//*[@id='post-1']/header/h1")).getText();
+		 * System.out.println(ss);
+		 */
 }
 }
