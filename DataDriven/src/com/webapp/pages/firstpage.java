@@ -40,9 +40,9 @@ public class firstpage {
 		Lostpassword.click();
 		String title=driver.getTitle();
 		System.out.println(title);
-		String actual= "this is testing";
-		String Expected=message.getText();
-		System.out.println(Expected);
+		String actual= "message.getText();
+		System.out.this is testing";
+		String Expected=println(Expected);
 		Assert.assertEquals(title, Expected);
 		
 		if(driver.getTitle().equalsIgnoreCase(Expected))
